@@ -20,8 +20,6 @@ export default function App(){
 
 
 
-
-
 // {
 // 	"Cria um componente": {
 // 		"prefix": ".componente",
