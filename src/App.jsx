@@ -14,3 +14,26 @@ export default function App(){
    
   )
 }
+
+
+
+
+
+
+
+
+// {
+// 	"Cria um componente": {
+// 		"prefix": ".componente",
+// 		"body": [
+// 			"export default function ${1:Componente}(){",
+// 			"",
+// 			"\treturn (",
+// 			"\t\t<>$0</>",
+// 			"\t)",
+// 			"}",
+// 			"",
+// 		],
+// 		"description": "Cria um componente funcional"
+// 	}
+// }
