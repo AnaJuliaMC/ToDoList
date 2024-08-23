@@ -1,5 +1,4 @@
 .Main{
-    background-color: var(--preto);
-    color: var(--cinza);
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
+    padding-bottom: 2.5rem;
 }

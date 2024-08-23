@@ -8,13 +8,15 @@ export default function App(){
   return (
     <>
       <Header />
-      <Main />
+
+      <Main>
+
+      </Main>
       <Footer autor="Ana"/>
     </>
    
   )
 }
-
 
 
 

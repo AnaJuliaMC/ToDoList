@@ -1,14 +1,16 @@
 import styles from "./Main.module.css"
 
-function Main(){
+function Main(props){
+    let {children} = props
     return(
         <div className={styles.Main}>
-            <h1>Main</h1>
+            {children}
 
         </div>
     )
 
 }
+
 
 export default Main
 
