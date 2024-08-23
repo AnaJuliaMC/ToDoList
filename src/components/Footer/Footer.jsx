@@ -1,11 +1,13 @@
 import styles from "./Footer.module.css"
 
-export function Footer(props){
+export default function Footer(props){
 
-    { autor, ano } = props
+    let {autor} = props;
+    let ano = new Date().getFullYear();
+
     return(
         <div className={styles.Footer}>
-            React - {props.autor} - {props.ano}
+            React - {autor} - {ano}
 
         </div>
     )

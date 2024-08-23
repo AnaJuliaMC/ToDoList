@@ -9,7 +9,7 @@ export default function App(){
     <>
       <Header />
       <Main />
-      <Footer autor="Ana" ano="2024"/>
+      <Footer autor="Ana"/>
     </>
    
   )
@@ -33,5 +33,24 @@ export default function App(){
 // 			"",
 // 		],
 // 		"description": "Cria um componente funcional"
+// 	}
+// }
+
+
+// {
+// 	"Componente css": {
+// 		"prefix": ".componente-css",
+// 		"body": [
+// 			"import styles from ./${1:Componente}.module.css",
+// 			"",
+// 			"export default function ${1:Componente}(){",
+// 			"",
+// 			"\treturn (",
+// 			"\t\t<>$0</>",
+// 			"\t)",
+// 			"}",
+// 			"",
+// 		],
+// 		"description": "Cria um componente funcional com estilo"
 // 	}
 // }
