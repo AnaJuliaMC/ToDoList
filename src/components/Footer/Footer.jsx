@@ -1,9 +1,14 @@
-function Footer(){
+import styles from "./Footer.module.css"
+
+export function Footer(props){
+
+    { autor, ano } = props
     return(
-        <h1>footer</h1>
+        <div className={styles.Footer}>
+            React - {props.autor} - {props.ano}
+
+        </div>
     )
 
 }
-
-export default Footer
 

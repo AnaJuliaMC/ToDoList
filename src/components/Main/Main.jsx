@@ -1,6 +1,11 @@
+import styles from "./Main.module.css"
+
 function Main(){
     return(
-        <h1>main</h1>
+        <div className={styles.Main}>
+            <h1>Main</h1>
+
+        </div>
     )
 
 }

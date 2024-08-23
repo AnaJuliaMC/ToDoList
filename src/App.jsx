@@ -9,7 +9,7 @@ export default function App(){
     <>
       <Header />
       <Main />
-      <Footer />
+      <Footer autor="Ana" ano="2024"/>
     </>
    
   )
