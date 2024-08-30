@@ -1,11 +1,21 @@
 import styles from "./Main.module.css"
 
-function Main(props){
-    let {children} = props
+function Main(){
     return(
         <div className={styles.Main}>
-            {children}
+            <div className={styles.criar}>
+                <input type="text" />
+                <button>+</button>
+            </div>
 
+            <div className={styles.lista}>
+                <div className={styles.item}>
+                    <p>item</p> 
+                    <button className="exluir">X</button>
+
+                </div>
+
+            </div>
         </div>
     )
 

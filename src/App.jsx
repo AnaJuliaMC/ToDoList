@@ -10,7 +10,8 @@ export default function App(){
       <Header />
 
       <Main>
-
+        <input type="text" />
+        <button></button>
       </Main>
       <Footer autor="Ana"/>
     </>

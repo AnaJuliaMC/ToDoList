@@ -1,4 +1,67 @@
 .Main{
     padding: 0.5rem 1rem;
     padding-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.criar{
+    background-color: lightgray;
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9ch;
+
+
+}
+
+button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 9ch;
+    border: none;
+    margin-left: 10px;
+}
+
+input{
+    width: 60%;
+    height: 2rem;
+    border-radius: 9ch;
+    border: none;
+
+}
+
+.lista{
+    background-color: lightgray;
+    width: 80%;
+    height: 25rem;
+    margin-top: 20px;
+    border-radius: 6ch;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item{
+    margin-top: 10px;
+    border: 1px solid rgb(71, 71, 71);
+    width: 80%;
+    height: 3rem;
+    border-radius: 4ch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    size: 10px;
+    margin-left: 5px;
+}
+
+.exluir{
+    size: 10px;
 }
